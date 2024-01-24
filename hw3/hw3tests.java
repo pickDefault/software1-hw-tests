@@ -6,19 +6,19 @@ class testing {
 
         public static void testq4() {
                 boolean res;
-                res = isEditDistanceOne("dog","god");
+                res = StringUtils.isEditDistanceOne("dog","god");
 		if ( res != false ) {
                         System.out.println("[Q4] Failed test 1");
                 }
-                res = isEditDistanceOne("x","x");
+                res = StringUtils.isEditDistanceOne("x","x");
 		if ( res != true ) {
                         System.out.println("[Q4] Failed test 2");
                 }
-                res = isEditDistanceOne("main","man");
+                res = StringUtils.isEditDistanceOne("main","man");
 		if ( res != true ) {
                         System.out.println("[Q4] Failed test 3");
                 }
-                res = isEditDistanceOne("ab","cab");
+                res = StringUtils.isEditDistanceOne("ab","cab");
 		if ( res != true ) {
                         System.out.println("[Q4] Failed test 4");
                 }
