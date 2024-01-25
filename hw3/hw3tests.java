@@ -74,12 +74,10 @@ class testing {
                 }
                 res = ArrayUtils.findShortestPath(new int[][]{{0,1,0,1},{0,0,0,1},{0,0,0,0},{0,0,1,0}},0,2);
                 if ( res != 2) {
-                        System.out.println(res);
                         System.out.println("[Q2] Failed test 4");
                 }
                 res = ArrayUtils.findShortestPath(new int[][]{{0,1,0,0,0},{0,0,1,0,0},{0,1,0,1,1},{0,1,0,0,1},{0,0,0,0,0}},0,4);
                 if ( res != 3) {
-                        System.out.println(res);
                         System.out.println("[Q2] Failed test 5");
                 }
         }
