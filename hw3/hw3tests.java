@@ -22,6 +22,14 @@ class testing {
 		if ( res != true ) {
                         System.out.println("[Q4] Failed test 4");
                 }
+                res = StringUtils.isEditDistanceOne("ab", "acb");
+                if ( res != true ) {
+                        System.out.println("[Q4] Failed test 5");
+                }
+                res = StringUtils.isEditDistanceOne("cat", "cult");
+                if ( res != false ) {
+                        System.out.println("[Q4] Failed test 6");
+                }
         }
         public static void testq3() {
                 String res;
